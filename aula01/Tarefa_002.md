@@ -4,12 +4,20 @@
 2. Elaborar um texto de pelo menos uma página, descrito com suas próprias palavras, destacando:
 * As definições dos conceitos envolvidos;
 * As principais características deste conceito (pelo menos umas cinco).
+* 
+Rest API é o conjunto de boas práticas utilizadas nas requisições HTTP realizadas por uma API em uma aplicação web. Entenda como funciona essa tecnologia, quais os tipos de APIs existentes e sua importância em um site.
+Trata-se de um conjunto de requisições que permite a comunicação de dados entre aplicações. Para isso, a API utiliza requisições HTTP responsáveis pelas operações básicas necessárias para a manipulação dos dados. As principais requisições são:
 
-INSTRUÇÕES:
-1. Este é um arquivo no formato _markdown_ (.md), caso você precise de orientações a respeito da forma como editar este tipo de arquivo, acesso este [link](https://guides.github.com/features/mastering-markdown/);
-2. No seu repositório no _github_, crie a pasta aula01;
-3. No seu repositório pessoal no _github_, na sua _branch_ pessoal, crie a pasta aula02;
-4. Edite este arquivo adicionando o texto, conforme especificado;
-5. Remova esta Seção de INSTRUÇÕES, do arquivo respondido.
-6. Faça o _Commit_ do arquivo atualizado com suas respostas.
-7. Isso deve ser feito até as 23h59min do dia 28/07/2021.
+    POST: criar dados no servidor;
+    GET: leitura de dados no host;
+    DELETE: excluir as informações;
+    PUT: atualizações de registros.
+Rest, que é a abreviatura de Representational State Transfer, é um conjunto de restrições utilizadas para que as requisições HTTP atendam as diretrizes definidas na arquitetura. Basicamente, as restrições determinadas pela arquitetura Rest são:
+
+    cliente-servidor: as aplicações existentes no servidor e no cliente devem ser separadas;
+    sem estado: as requisições são feitas de forma independente, ou seja, cada uma executa apenas uma determinada ação;
+    cache: a API deve utilizar o cache para evitar chamadas recorrentes ao servidor;
+    interface uniforme: agrupa outros quatro conceitos em que determina que os recursos devem ser identificados, a manipulação dos recursos deve ser por meio de representação, com mensagens autodescritivas e utilizar links para navegar pelo aplicativo.
+
+Portanto, quando se fala em Rest API, significa utilizar uma API para acessar aplicações back-end, de modo que essa comunicação seja feita com os padrões definidos pelo estilo de arquitetura Rest.    
+    

@@ -16,16 +16,16 @@ Responda as questões abaixo (exercite os comandos do git correspondentes). Lemb
   h. git mv a.txt b.txt: renomeia 
   i. git reset --hard: desfazer alterações
   j. git log -27
-3. O fluxo “clássico” de interação com o Git é algo como “alterar um ou mais arquivos”, “acrescentar essas mudanças para serem contemplados no próximo commit” e, finalmente, executar um “commit”. Quais os comandos necessários para realizar os dois últimos “passos” desse fluxo?
-4. Qual o comando deve ser executado para identificar o que foi alterado desde o último “commit”?
-5. Em um dado repositório, arquivos simplesmente copiados para lá, ou seja, _untracked_, podem ser exibidos/identificados com que comando?
+3. O fluxo “clássico” de interação com o Git é algo como “alterar um ou mais arquivos”, “acrescentar essas mudanças para serem contemplados no próximo commit” e, finalmente, executar um “commit”. Quais os comandos necessários para realizar os dois últimos “passos” desse fluxo? git push e git commit 
+4. Qual o comando deve ser executado para identificar o que foi alterado desde o último “commit”? git status
+5. Em um dado repositório, arquivos simplesmente copiados para lá, ou seja, _untracked_, podem ser exibidos/identificados com que comando? git status
 6. Qual o comando para efetuar um _commit_?
-7. Qual o comando que devemos empregar para descartar mudanças ocorridas no arquivo teste.txt, por exemplo?
+7. Qual o comando que devemos empregar para descartar mudanças ocorridas no arquivo teste.txt, por exemplo? 
 8. O que deve ser feito para que um determinado diretório do seu repositório seja ignorado pelo Git? Faça uma busca por **.gitignore**.
 9. O que acontece se o seu repositório local for acidentalmente removido?
-10. Como clonar um repositório remoto?
+10. Como clonar um repositório remoto?git clone
 11. Em alguns cenários **git log** pode produzir extensos resultados. Se houver interesse em visualizar o histórico de um repositório, onde cada mudança é fornecida exatamente em uma única linha, qual o comando que deve ser empregado?
-12. Em qual arquivo o Git armazena informações de configuração empregadas por usuário?
+12. Em qual arquivo o Git armazena informações de configuração empregadas por usuário? gitconfig
 13. Qual o comando para criar um repositório local?
 14. Qual o nome do diretório criado pelo Git quando se executa o comando **git init**?
 15. Qual o comando para adicionar todos os arquivos modificados? (Aqueles para os quais **git status** identificam como **modified**?)

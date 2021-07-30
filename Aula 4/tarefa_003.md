@@ -4,17 +4,17 @@
 Responda as questões abaixo (exercite os comandos do git correspondentes). Lembre-se de que o “interessante” não é exatamente o conjunto de respostas, mas o processo de obtê-las e a experiência obtida com a execução dos comandos.
 
 
-1. Qual o comando para obter a versão instalada do Git?
+1. Qual o comando para obter a versão instalada do Git? git -- version
 2. Qual o efeito da execução de cada um dos comandos abaixo?
-  a. git help
-  b. git help checkout
-  c. git help merge
-  d. git init
-  e. git add --all
-  f. git add -u
-  g. git config -l
-  h. git mv a.txt b.txt
-  i. git reset --hard
+  a. git help: aparece um monte de opçoes de ajuda.
+  b. git help checkout: vai para file:///C:/Program%20Files/Git/mingw64/share/doc/git-doc/git-checkout.html
+  c. git help merge: vai para file:///C:/Program%20Files/Git/mingw64/share/doc/git-doc/git-merge.html
+  d. git init: Inicializa repositório git
+  e. git add --all: Adiciona todos os arquivos (modificados, alterados e removidos) na área de preparação (staging area) e os deixa preparado para o commit e indica ao git que esses arquivos serão rastreados
+  f. git add -u: 
+  g. git config -l: lista as configurações do Git
+  h. git mv a.txt b.txt: renomeia 
+  i. git reset --hard: desfazer alterações
   j. git log -27
 3. O fluxo “clássico” de interação com o Git é algo como “alterar um ou mais arquivos”, “acrescentar essas mudanças para serem contemplados no próximo commit” e, finalmente, executar um “commit”. Quais os comandos necessários para realizar os dois últimos “passos” desse fluxo?
 4. Qual o comando deve ser executado para identificar o que foi alterado desde o último “commit”?
@@ -52,22 +52,6 @@ Responda as questões abaixo (exercite os comandos do git correspondentes). Lemb
 33. Após alterar o conteúdo de um arquivo committed em passo anterior, qual o efeito do comando **git checkout -- a.txt**?
 34. Qual a diferença entre os comandos **git reset HEAD a.txt** e **git checkout -- a.txt**?
 35. Veja como interpretar o resultado de git diff [aqui](https://medium.com/therobinkim/how-to-read-a-git-diff-6c87a9dc47c5). Execute, em um dos seus projetos, o comando **git diff HEAD~1 HEAD** e certifique-se de que entende o resultado apresentado.
-
-
-
-INSTRUÇÕES:
-
-1. No seu repositório pessoal, criar a pasta aula04.
-2. Commitar este arquivo respondido nesta pasta.
-3. A data limite para concluir esta tarefa é dia 31/07/2021, as 23h59min.
-
-
-
-
-
-
-
-
 
 
 

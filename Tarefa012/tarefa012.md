@@ -1,11 +1,5 @@
 # Tarefa 012 - 25/08/2021
 
-2. Elaborar um texto sobre um deles, destacando:
-    2.1 - A idÃ©ias principais do texto;
-    2.2 - O que Ã© novidade para vocÃª, em relaÃ§Ã£o ao conteÃºdo do artigo;
-    2.3 - O que jÃ¡ era conhecido por vocÃª.
-3. Escrever um parÃ¡grafo com suas palavras comentando o contÃ©udo do artigo.
-
 ## [Fatores de qualidade na programação.](https://www.devmedia.com.br/fatores-de-qualidade-na-programacao/29780)
 
 ###### O artigo mostra aos desenvolvedores alguns fatores importantes para um bom desenvolvimento de código-fonte. 
